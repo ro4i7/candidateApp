@@ -1,4 +1,5 @@
 # Getting Started with Create React App
+This project is deployed on [https://candidatejobapplication.netlify.app/](https://candidatejobapplication.netlify.app/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
