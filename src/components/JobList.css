@@ -1,0 +1,22 @@
+.job-list-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 70px;
+  }
+  
+  .job-card {
+    width: calc(33.33% - 20px); /* 33.33% width for three cards per row with 20px gap */
+  }
+  
+  @media screen and (max-width: 768px) {
+    .job-card {
+      width: calc(50% - 20px); /* 50% width for two cards per row with 20px gap */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .job-card {
+      width: calc(100% - 20px); /* Full width for one card per row with 20px gap */
+    }
+  }
+  
